@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h2 class="text-center mt-1">Registrate</h2>
+                <p>Los campos con (*) son obligatorios</p>
+                <form id="registerForm">
+                    <!-- Obtención de usuario -->
+                    <div class="form-group">
+                        <label for="username">Usuario*</label>
+                        <input type="text" class="form-control" id="username" required>
+                    </div>
+                    <!-- Obtención de nombre(s) -->
+                    <div class="form-group">
+                        <label for="name">Nombre(s)*</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <!--Obtención de apellido(s)-->
+                    <div class="form-group">
+                        <label for="lastName">Apellido(s)*</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <!-- Obtención de la fecha de nacimiento-->
+                    <div class="form-group">
+                        <label for="BOD">Fecha de nacimiento*</label>
+                        <input type="date"
+                        class="form-control" id="BOD"
+                       required>
+                    </div>
+                    <!-- Obtención de correo electrónico--> 
+                     <div class="form-group">
+                        <label for="email">Correo electrónico*</label>
+                        <input type="email" class="form-control" id="email" required>
+                     </div>
+                    <!-- Obtención de contraseña-->
+                    <div class="form-group">
+                        <label for="password">Contraseña*</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <!-- Obtención de confirmación de contraseña-->
+                     <div class="form-group">
+                        <label for="password">Confirmar contraseña*</label>
+                        <input type="password" class="form-control" id="password" required>
+                     </div>
+                    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                    <p>Ya tienes cuenta? <a href="index.html">Inicia sesión aquí</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlace a jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Enlace a Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlace a tu archivo JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
