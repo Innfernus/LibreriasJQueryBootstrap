@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente azul */
+}
+.main-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+}
+.card {
+    border: none; /* Eliminar bordes predeterminados */
+}
+.card{
+    transition: transform 0.3s ease-in-out; /* Efecto de transición */
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.main-header, .main-header p {
+    color: white; /* Color del texto blanco */
+}
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro transparente */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .btn {
+    color: white; /* Color del texto del navbar */
+}
+.navbar-custom .nav-link:hover {
+    color: #cccccc; /* Color del texto al pasar el mouse */
+}

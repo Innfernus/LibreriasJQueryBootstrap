@@ -6,15 +6,13 @@ body {
     height: 100vh;
 }
 
-.container {
-    margin-top: 100px;
-}
-
 .card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
-h2 {
-    margin-bottom: 30px;
+.error-message{
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
 }
