@@ -9,7 +9,7 @@ $(document).ready(function() {
         
         // Aquí puedes añadir lógica para verificar las credenciales, por ejemplo, hacer una petición AJAX
         if (username === "admin" && password === "admin123") {
-            alert("Login exitoso!");
+            window.location.href = "dashboard.html"
         } else {
             alert("Credenciales incorrectas, intenta de nuevo.");
         }
