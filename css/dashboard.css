@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente azul */
+}
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.sidebar {
+    height: 100vh;
+    background-color: rgba(48, 60, 91, 0.9);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 250px;
+}
+.sidebar a {
+    color: white;
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    margin-left: 270px; /* Ancho de la sidebar + margen */
+    padding: 20px;
+}
+.card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+.card img, .card video {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.like-btn {
+    color: #007bff;
+    cursor: pointer;
+}
+.liked {
+    color: red;
+}
+.card-footer {
+    background-color: #f8f9fa;
+}
